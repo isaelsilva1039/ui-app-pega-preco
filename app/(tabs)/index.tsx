@@ -85,23 +85,17 @@ export default function HomeScreen() {
         <View style={styles.contentBox}>
 
         
-        <Menu
-          visible={false}
-          onDismiss={() => {}}
-          anchor={
-            <Button 
-              mode="outlined"
-              disabled
-              style={[styles.menuButton, styles.menuButtonActive]}
-              labelStyle={styles.menuButtonLabel}
-            >
-              Brasil
-            </Button>
-          }
+        <Text style={styles.label}>PAÍS</Text>
+        <Button 
+          mode="outlined"
+          disabled
+          style={[styles.menuButton, styles.menuButtonActive]}
+          labelStyle={styles.menuButtonLabel}
         >
-          {/* Add children here */}
-          <Text style={{ padding: 16 }}>Nenhuma opção disponível</Text>
-        </Menu>
+          Brasil
+        </Button>
+
+
           
           {/* ESTADO */}
           <Text style={styles.label}>ESTADO</Text>
