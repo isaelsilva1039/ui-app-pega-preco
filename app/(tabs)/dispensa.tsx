@@ -22,7 +22,7 @@ interface Coordenadas {
   lon: number;
 }
 
-export default function HomeScreen(): JSX.Element {
+export default function DispensaScreen(): JSX.Element {
   const [raio, setRaio] = useState<number>(50);
   const [estado, setEstado] = useState<string>('');
   const [cidade, setCidade] = useState<string>('');
